@@ -30,18 +30,65 @@ input{
   align-content: center;
 }
 
-#hoverButton:hover{
+#clearButton{
+  background-color: #64b255;
+  color: white;
+  font-family: Helvetica;
+}
+
+#clearButton:hover{
+  background-color: #83c178;
+}
+
+#equal{
+  background-color: #64b255;
+  color: white;
+  font-family: Helvetica;
+}
+
+#equal:hover{
   background-color: #83c178;
 }
 
 
-#function{
+#divide{
   background-color: #83c178;
   color: #009900;
   font-family: Helvetica;
 }
 
-#function:hover{
+#divide:hover{
+  color:white;
+}
+
+#multiply{
+  background-color: #83c178;
+  color: #009900;
+  font-family: Helvetica;
+}
+
+#multiply:hover{
+  color:white;
+}
+
+#subtract{
+  background-color: #83c178;
+  color: #009900;
+  font-family: Helvetica;
+}
+
+#subtract:hover{
+  color:white;
+}
+
+
+#add{
+  background-color: #83c178;
+  color: #009900;
+  font-family: Helvetica;
+}
+
+#add:hover{
   color:white;
 }
 
@@ -52,4 +99,5 @@ input{
   background-color: #64b255;
   border-left: : 1px solid white;
   margin: 0px;
+  text-align: right;
 }
